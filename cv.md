@@ -24,5 +24,19 @@ My goal is to continue growing in IT industry, get a job  to be engaged and gain
 
 *** 
 
+*My first program!*
+```
+ begin
+  write('Hello, World!');
+ end.
+ ```
 
+ ## Experience
+ * **rs-school:** js/front-end develop
+ * **university prjs:**
+   * php/mysql web-site 
+
+## English level
+*05.03.2021*  **A2** 
+ 
 
