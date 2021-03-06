@@ -1,5 +1,8 @@
 .color-t {
-    color: #AB2346
+    color: #AB2346;
+}
+li:hover{
+    color: #00B295;
 }
 .block {
     margin: 20px 30px;
@@ -8,32 +11,26 @@
         margin-left: -5px;
         font-weight: 210;
     }
-.clear {
-        clear: both;
-}
+
 .horizontal-line{
 	margin: 34px 0 0 30px;
 	height: 26px;
 	position: relative;	
 }
-	.line-left,
-	.line-right{
+	.line {
 		border-top: 1px solid #C9DAEA;
 		width: 240px;
 		margin-top: 10px;
 	}
-	.line-left{
-		float: left;
-	}
-	.line-right {
-		float: right;
-	}
+	
+	
+	
 /* MAIN TAGS */
 body {
     margin: 0;
     background-color: #191516;
 }
-h1,h2 {
+h1,h2,h3,h4,h5,h6 {
     font-weight: 300;
     color:#00B295;
 }
@@ -56,9 +53,12 @@ blockquote,p,a,li {
     font-size: 15px;
     color:#C9DAEA;
 }
-
+code {
+    font-weight: 300;
+    font-size: 15px;
+    color: #C9DAEA;
+}
 ul {
-    list-style: none;
     padding: 0;
     margin:0;
 }
@@ -99,17 +99,16 @@ ul {
 /* LEFT COL */
 
 .profile-pic-frame {
-    width: 230px;
-    height: 260px;
+    width: 240px;
+    height: 280px;
   /*  background: black; */
-    border: 1px solid #C9DAEA;
+    border: 1px solid #AB2346;
     margin-top: 30px;
 }
     .profile-pic {
-        width: 210px;
-        height: 240px;
-        margin: 10px;
-        background: url(cv-pic.jpg) 100%/210px no-repeat;
+        width: 205px;
+        height: 250px; 
+        margin: 15px 5px 5px 15px;
     }
 .left-column-content {
     width: 230px;
